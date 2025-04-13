@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.link {
+  color: white;
+  padding: 10px 30px;
+  background-color: rgb(117, 117, 117);
+}
+
+.link:hover {
+  color: rgb(197, 197, 197);
+  background-color: rgb(73, 73, 73);
+}
