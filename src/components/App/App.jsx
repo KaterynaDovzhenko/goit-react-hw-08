@@ -6,7 +6,7 @@ import Layout from "../Layout/Layout";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, lazy, Suspense } from "react";
 
-import { fetchContacts } from "../../redux/contacts/contactsOps";
+import { fetchContacts } from "../../redux/contacts/operations";
 import { selectIsRefreshing } from "../../redux/auth/selectors";
 import { refreshUser } from "../../redux/auth/operations";
 

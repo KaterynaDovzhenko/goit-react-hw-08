@@ -1,5 +1,5 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import { fetchContacts } from "../contacts/contactsOps";
+import { fetchContacts } from "../contacts/operations";
 import axios from "axios";
 
 const setAuthHeader = (value) => {
